@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first web page</title>
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section id="#">
+        <h1>This is my goals for the year</h1>
+        <h1>Hello Guys!</h1>
+    </section>
+    <hr>
+    <nav>
+        <ul>
+            <li><a href="#html">Learn HTML</a></li>
+        </ul>
+    </nav>
+    <section id="html">
+        <h1>Hello World</h1>
+        <hr>
+        <h2>I am ready to learn html</h2>
+        <p>This is my first web page</p>
+
+        <h3>My Daily Schedule</h3>
+        <p>Le me tell you how:</p>
+        <ol>
+            <li>learn more about web dev</li>
+            <li>I plan out my Schedule</li>
+            <li>I use resources from <abbr title="Mozilla Developer Network"><a
+                        href="https://developer.mozilla.org/en-US/">MDN</a></abbr></li>
+        </ol>
+    </section>
+
+    <hr>
+
+    <h2>I am planning a vacation</h2>
+    <p>I have been working really hard to <em>acquire these skills</em></p>
+    <p>I live in Raniganj, I want to visit mountains.</p>
+
+    <p>The address that I reside is as follows:</p>
+    <address>
+        K.D Sarani-1, Girjapara,<br>
+        Raniganj, District: Paschim Bardhaman<br>
+        State: West Bengal, India
+    </address>
+
+    <h3>Places I want to avoid</h3>
+    <p>definately <strong>not hot places</strong></p>
+    <hr>
+
+    <h3>Skills I would love to acquire</h3>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Java Script</li>
+        <li>React</li>
+    </ul>
+    <hr>
+    <aside>
+        <details>
+            <summary>Guess the <mark>number of hours</mark> I code per day</summary>
+            <p>I start at <time datetime="08:00">8 AM</time>and I write code for<time datetime="PT3H">3 hours</h1>
+                    </time>every morning.</p>
+        </details>
+    </aside>
+    <table>
+        <caption>My Daily Schedule</caption>
+
+        <tr>
+            <th>&nbsp</th>
+            <th>Time</th>
+            <th>Activity</th>
+        </tr>
+        
+        <tbody>
+            <tr>
+                <th>Morning</th>
+                <td>
+                    <time datetime="08:00">8am</time>-<time datetime="11:00">11am</time>
+                </td>
+                <td>Write Code</td>
+            
+            </tr>
+            <tr>
+                
+                <th>Break</th>
+                
+                
+                <td>
+                    <time datetime="11:00">11am</time>-<time datetime="12:00">12pm</time>
+                </td>
+                <td>Have lunch</td>
+
+            </tr>
+            <tr>
+                <th>Afternoon</th>
+                <td>
+                    <time datetime="12:00">12pm</time>-<time datetime="16:00">4pm</time>
+                </td>
+                <td>Study other courses</td>
+
+            </tr>
+        <tr>
+            <th>Evening</th>
+            <td rowspan="2">Free Time</td>
+            <td>Free time</td>
+        </tr>
+        <tr>
+            <th>Night</th>
+            <td>Sleep</td>
+        </tr>
+       
+      </tbody>
+      <tfoot>
+        <tr>
+            <td colspan="2">And that's what I do everyday</td>
+        </tr>
+      </tfoot>
+    </table>
+    <br>
+
+    <hr>
+    <h3>Places I want to avoid</h3>
+    <dl>
+        <dt>North Pole</dt>
+        <dd>I hear this is extremely cold</dd>
+        <dt>South Pole</dt>
+        <dd>Extremely cold and windy-</dd>
+    </dl>
+    <a href="#">Back to top</a>
+    <hr>
+    <article id="contact">
+        <h2>Contact Me</h2>
+        <p>I'd would really love  tyo hear from you!</p>
+        <form action="https://httpbin.org/get" method="get">
+          <fieldset>
+            <legend>Personal Info</legend>  
+            <div>
+                <label for="firstName">First Name:</label>
+                <input type="text" name="firstName" id="firstName" placeholder="Ram" autocomplete="on" required autofocus>
+            </div>
+            <div>
+                <label for="lasttName">last Name:</label>
+                <input type="text" name="lastName" id="lastName" placeholder="Sen" autocomplete="on" required>
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" placeholder="Confidential" required>
+            </div>
+            <div>
+                <label for="phone">Phone:</label>
+                <input type="tel" name="password" id="phone" placeholder="555-555-5555" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+            </div>
+            <div>
+                <label for="decade">Favourite Decade: </label>
+                <input type="number" name="decade" id="decade" min="1950" max="2020" step="10" value="1980">
+            </div>
+            <div>
+                <label for="cofee">Favourite Coffee: </label>
+                <select name="coffee" id="coffee">
+                    <optgroup label="Coffees">
+                        <option value="regular coffee">Regular Coffee</option>
+                        <option value="iced coffee">Iced Coffee</option>
+                    </optgroup>
+                    <optgroup label="Espresso Drink">
+                        <option value="latte" selected>Latte Coffee</option>
+                        <option value="cappuccino">Cappuccino</option>
+                        <option value="cortado">Cortado</option>
+                        <option value="americano">Americano</option>
+                    </optgroup>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+          </fieldset>
+          <fieldset>
+            <legend>What is your favourite food</legend>
+            <div>
+                <input type="radio" name="food" id="food" value="tacos">Tacos</label>
+            </div>
+            <div>
+                <input type="radio" name="food" id="food" value="pizza">Pizza</label>
+            </div>
+            <div>
+                <input type="radio" name="food" id="other" value="other">Other</label>
+            </div>
+
+          </fieldset>
+        </form>
+
+    </article>
+    <hr>
+    &lt;&lt;&lt; &copy; Deb &gt;&gt;&gt;
+
+
+
+
+</body>
+
+</html>
